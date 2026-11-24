@@ -1,0 +1,13 @@
+interface:
+  display_name: Prospectar empresas locais
+  short_description: "Pesquise negócios e prepare abordagens com evidências"
+  default_prompt: "Use $prospectar-empresas-locais na cidade de Itaitinga - CE e entregue diagnóstico comercial, fontes e mensagens personalizadas."
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
