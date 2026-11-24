@@ -1,3 +1,5 @@
+> Registro histórico da atualização anterior. As pontuações usam a rubrica antiga e as mensagens não são exemplos de abertura da metodologia atual. Para o fluxo vigente, consultar VALIDATION.md e as referências atuais.
+
 # Validação real de cinco segmentos em Itaitinga, CE
 
 **Consulta: 24/11/2026.** Filtros: um restaurante, uma barbearia, uma empresa de roupas, uma oficina e uma clínica. Pesquisa pública por segmento, nome, cidade, telefone e variantes, com abertura de páginas candidatas. Cobertura observada: Ancuri, Parque Dom Pedro, Gererau e Centro. Não é um censo. Nenhuma mensagem, formulário, reserva ou pedido foi enviado.

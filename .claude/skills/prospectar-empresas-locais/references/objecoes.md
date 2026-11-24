@@ -1,6 +1,6 @@
 # Respostas a objeções
 
-Usar o diagnóstico para selecionar uma resposta curta. Não tratar a conversa como uma sequência obrigatória de contornos. Responder à dúvida e encerrar quando houver recusa. Não atribuir estas falas à empresa antes que ela as diga. Os exemplos são condicionais e devem ser adaptados aos fatos.
+Usar o diagnóstico e a etapa atual para selecionar uma resposta curta. Os exemplos de solução abaixo pertencem às etapas posteriores à resposta e ao interesse; não usá-los para antecipar oferta na primeira mensagem. Se houver recusa, agradecer e encerrar, suspendendo também D+2/D+5/D+10. A frase “não tenho interesse agora” não é objeção a contornar nem permissão para novo contato. Não tratar a conversa como uma sequência obrigatória de contornos. Responder à dúvida e encerrar quando houver recusa. Não atribuir estas falas à empresa antes que ela as diga. Os exemplos são condicionais e devem ser adaptados aos fatos.
 
 | Objeção | Como responder | Exemplo adaptável |
 | --- | --- | --- |

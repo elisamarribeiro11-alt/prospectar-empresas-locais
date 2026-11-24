@@ -10,40 +10,56 @@ Os exemplos abaixo são fictícios. Os detalhes só podem ser usados numa aborda
 | Oficina | Entender serviços e pedir orçamento com informações úteis | Página de serviços, provas públicas verificadas e solicitação de orçamento | Avaliação técnica e aprovação do orçamento; não prometer preço sem diagnóstico |
 | Clínica | Encontrar especialidades, endereço e canais de agendamento | Página informativa com acesso ao canal oficial de marcação | Confirmação da agenda pela equipe; não solicitar dados de saúde em formulário comercial de prospecção |
 
-## Exemplos condicionados às evidências
+## Perguntas iniciais condicionadas às evidências, passo 3
+
+Os detalhes abaixo são fictícios. Confirmar cada um antes de usar. A abertura não apresenta solução nem pede para mostrar uma proposta.
 
 ### Restaurante
 
-Evidência necessária: publicação oficial apresenta marmitas e orienta pedidos pelo WhatsApp; o percurso consultado não apresentou cardápio organizado.
+Evidência necessária: perfil oficial anuncia marmitas de segunda a sexta e orienta consulta ao cardápio pelo WhatsApp.
 
-> Oi, tudo bem? Vi no perfil de vocês as marmitas e o contato para pedidos. Pensei em um cardápio online onde a pessoa escolhe o prato antes de chamar no WhatsApp. Pode facilitar a consulta das opções e o início do pedido. Vocês já usam algo assim?
+> Oi, tudo bem? Vi que vocês divulgam as marmitas de segunda a sexta e passam o cardápio pelo WhatsApp. Quem chega pela primeira vez costuma perguntar pelas opções do dia ou já vem com um prato escolhido?
 
 ### Barbearia
 
-Evidência necessária: perfil oficial lista corte e barba e informa agendamento pelo direct; não foi localizada agenda própria.
+Evidência necessária: Google mostra nota 4,8 em 120 avaliações, com avaliações recentes sobre corte degradê; perfil oficial mostra esse serviço e consulta de horários pelo direct.
 
-> Oi! Vi que vocês fazem corte e barba e marcam pelo direct. Uma página com os serviços e um caminho para pedir horário poderia facilitar para quem está procurando uma barbearia na região. Faria sentido para vocês?
+> Oi! Vi as avaliações recentes sobre o degradê de vocês e que os horários são pelo direct. Quem procura esse corte pela primeira vez costuma chegar pelo Google ou pelas fotos do Instagram?
+
+Não chamar a nota de alta nem mencionar avaliações recentes sem conferir nota, volume e datas. Não presumir que todos os novos clientes procuram degradê.
 
 ### Loja de roupas
 
-Evidência necessária: publicação oficial anuncia coleção de verão e orienta consultar peças pelo WhatsApp.
+Evidência necessária: coleção de verão publicada oficialmente; modelos e tamanhos consultados pelo WhatsApp.
 
-> Oi, tudo bem? Vi a coleção de verão no perfil de vocês. Pensei em uma vitrine online para o cliente conferir as peças a qualquer hora e chamar no WhatsApp já com o modelo escolhido. Vocês acham que isso ajudaria nas consultas?
+> Oi, tudo bem? Vi a coleção de verão que vocês publicaram. Quando alguém chama sobre essas peças, costuma já ter escolhido o modelo ou primeiro pergunta o que tem no tamanho dela?
 
 ### Oficina
 
-Evidência necessária: canal oficial anuncia revisão de motos e orçamento pelo WhatsApp.
+Evidência necessária: perfil oficial anuncia revisão de motos e orçamento pelo WhatsApp.
 
-> Oi! Vi que vocês trabalham com revisão de motos. Pensei em uma página explicando os serviços e levando o cliente ao WhatsApp para pedir orçamento. Pode ajudar quem ainda não conhece a oficina a entender o que vocês fazem. Seria útil para vocês?
+> Oi! Vi o anúncio de revisão de motos de vocês e o WhatsApp para orçamento. Quem procura essa revisão pela primeira vez costuma perguntar o que está incluído ou já chega pedindo um serviço específico?
 
 ### Clínica
 
-Evidência necessária: perfil oficial divulga pediatria e dermatologia e marcação pela recepção.
+Evidência necessária: clínica anuncia pediatria e dermatologia e marcação pela recepção.
 
-> Olá, tudo bem? Vi que a clínica atende pediatria e dermatologia. Uma página reunindo essas especialidades, a localização e o contato da recepção poderia facilitar para quem procura atendimento. Vocês já têm essas informações reunidas em algum lugar?
+> Olá! Vi que vocês atendem pediatria e dermatologia e que a marcação é pela recepção. Quem procura uma dessas especialidades pela primeira vez costuma chegar pelo Google ou por indicação?
 
-## Revisão da mensagem
+## Explicar a solução somente depois de resposta e interesse
 
-Conferir os cinco movimentos, sem exigir uma frase para cada um: abertura natural, conhecimento da empresa, oportunidade relevante, benefício plausível e pergunta simples. Remover preços não solicitados, jargão, elogios vazios, frases longas e promessas de retorno. Não usar “sua empresa está perdendo clientes”, “vocês precisam de um site” ou “vi que vocês não têm site”.
+Ler conversao-sete-passos.md antes de preparar uma prévia ou convite. Adaptar a ideia à resposta, preservando os canais atuais:
 
-Se apenas o nome mudar e a mensagem continuar igual, procurar um detalhe público que altere a proposta. Se não houver detalhe suficiente, manter a empresa pendente para pesquisa, em vez de fingir personalização. Uma possibilidade de ganho não deve aparecer como problema comprovado: “pode facilitar a consulta” é diferente de “seu atendimento está sobrecarregado”.
+- Restaurante: consulta organizada ao cardápio antes de continuar o pedido ou contato realmente confirmado.
+- Barbearia: apresentação dos serviços e caminho para solicitar horário, sem agenda automática fictícia.
+- Loja: vitrine consultável por modelo/tamanho, se o catálogo atual ainda não resolver essa consulta.
+- Oficina: serviços e orientação de orçamento sujeitos à avaliação técnica.
+- Clínica: especialidades, localização e contato da recepção, sem simular confirmação real de consulta.
+
+Não anexar essas ideias à primeira mensagem. Se perguntarem por que está entrando em contato, explicar com transparência o trabalho e a observação que motivou a conversa, sem fingir ser cliente.
+
+## Revisão da abertura
+
+Conferir: saudação natural, detalhe que altere a pergunta, uma pergunta simples e ausência de oferta, preço ou proposta de site. Remover elogios vazios, jargão e suposições. Se apenas o nome mudar e a mesma abertura servir, descartá-la. Sem detalhe verificável suficiente, manter a empresa pendente para pesquisa.
+
+A necessidade pode ser negada pela resposta do empresário. Não converter uma pergunta em diagnóstico de falha nem sugerir que a empresa perde dinheiro. O diagnóstico interno pode recomendar solução, mas a abertura serve para ouvir antes de oferecê-la.

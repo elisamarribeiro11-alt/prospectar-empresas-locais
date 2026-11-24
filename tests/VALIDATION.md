@@ -1,55 +1,67 @@
-# Validação da atualização comercial
+# Validação da metodologia em sete passos
 
-Data: 24/11/2026. Atualização da skill existente, preservando a pesquisa por cidade, a qualificação de identidade/site/WhatsApp, os filtros, a busca por bairros e a entrega de rascunhos sem envio.
+Data: 24/11/2026. Atualização da skill existente, publicada somente após executar e revisar os testes abaixo. Casos desta rodada são fictícios e controlados: não houve pesquisa real adicional, contato comercial, automação, cobrança ou publicação externa de demonstração. Resultados não comprovam conversão ou faturamento.
 
-## Método e limites
+## Aplicações independentes
 
-Foram executadas duas aplicações independentes da skill: uma com cinco dossiês fictícios controlados e outra com pesquisa pública real em cinco segmentos de Itaitinga, CE. Os arquivos de saída foram revisados antes da publicação. São testes de comportamento e qualidade editorial, não prova de conversão, faturamento ou exaustividade da pesquisa.
+- [Cinco segmentos e aberturas](openings-v3.md): dossiês com restaurante, barbearia, vestuário, oficina e clínica; demanda, contato e condição do site descritos no exercício, sem inventar números ou URLs.
+- [Conversão e condições comerciais](conversion-v3.md): resposta com interesse, demonstração, convite, proposta incompleta, pagamento autorizado, acompanhamento e recusa.
+- [Prévia visual fictícia](demo-v3.html): restaurante com dois produtos fornecidos, identidade confirmada e canal de atendimento somente visual. HTML versionado como artefato de teste fictício, sem implantação e sem apresentação a empresa real.
 
-- [Saída dos casos controlados](controlled-results.md): entradas D1 a D5 são descritas no próprio resultado; contatos são premissas de simulação, sem números nem URLs inventados.
-- [Saída da pesquisa real](live-results.md): fontes, datas, classificação, limitações e parcelas da prioridade.
+As duas aplicações receberam a skill e os respectivos dossiês/conversas, sem respostas esperadas. Os resultados foram revisados antes da publicação.
 
-## Cinco segmentos
+## Seleção e pesquisa individual
 
-| Segmento | Cenário controlado | Resultado revisado |
-| --- | --- | --- |
-| Restaurante | Marmitas; cardápio consultado pelo WhatsApp; perguntas públicas sobre acesso ao menu | Proposta de cardápio organizado. Mensagem mantém o contato existente sem afirmar que já recebe pedidos |
-| Barbearia | Corte e barba; horários pelo direct; nenhuma queixa de agenda | Pergunta de descoberta e proposta de publicação fixada com serviços e caminho para consultar horários. Não presume falha nem oferece agenda automática |
-| Loja de roupas | Coleção publicada e catálogo de terceiros atualizado com categorias e links por produto | Mantém o catálogo e não prepara oferta de uma vitrine duplicada, mesmo sem site próprio |
-| Oficina | Revisão de motos; escopo não descrito nas páginas consultadas; reclamação isolada de preço | Recomenda explicar o serviço e confirmar escopo. Não usa a reclamação para alegar perda de vendas nem garante orçamento sem inspeção |
-| Clínica | Especialidades publicadas e marcação pela recepção; horários não publicados no material | Propõe orientação somente se os horários forem estáveis; mantém a marcação pela recepção sem inventar processo de confirmação |
-
-As quatro mensagens recomendadas foram confrontadas com D1, D2, D4 e D5. Foram verificadas abertura natural, detalhe específico, oportunidade concreta, benefício condicional e pergunta sem pressão. A loja não recebeu mensagem de venda porque a solução típica já existe. Duas objeções por negócio foram respondidas de acordo com os dossiês, sem números comerciais inventados.
-
-## Falhas encontradas e correções
-
-1. O primeiro rascunho do restaurante dizia que pedidos continuariam pelo WhatsApp, embora o dossiê comprovasse apenas consulta e contato. A frase foi corrigida. A instrução principal agora distingue canal de informações de canal de pedidos.
-2. O primeiro rascunho da clínica atribuía à recepção confirmação de disponibilidade, detalhe não presente no dossiê. A mensagem foi limitada à marcação informada.
-3. A mensagem inicial da barbearia usava linguagem abstrata sobre acesso à consulta. Foi substituída por uma ideia concreta, sem inventar dificuldade na agenda.
-4. A pesquisa real gerou um link wa.me para contato com divergência ainda não resolvida. O link foi retirado e a referência do relatório passou a proibir explicitamente esse atalho em conflitos de atribuição/contato.
-5. A revisão das fontes reais conferiu a abertura individual da página de contato divergente e separou datas de avaliações de datas de rastreamento. Pistas de busca não foram tratadas como confirmação suficiente.
-
-## Regressões e decisões observadas
-
-| Caso | Decisão correta observada |
+| Cenário | Resultado observado |
 | --- | --- |
-| Telefone genérico sem indicação de WhatsApp | Pendente, sem conversão para wa.me e sem teste por mensagem |
-| Link oficial de site inacessível | Site inconclusivo, fora da lista apta |
-| Página oficial em subdomínio de criador | Conta como site próprio; excluída da campanha por ausência de site |
-| Canal atual já resolve a necessidade | Não inventar demanda nem vender funcionalidade duplicada |
-| Empresário diz que não tem interesse agora | Agradecer e encerrar; sem agendar insistência |
-| Fonte complementar inacessível | Registrar lacuna e reduzir confiança; não atribuir defeito à empresa |
+| Restaurante com consulta ao cardápio pelo WhatsApp | Fila de criação, 70/100; pergunta sobre escolha dos pratos sem oferecer cardápio/site |
+| Barbearia com degradê/barba e horários no direct | Fila de criação, 70/100; pergunta específica sobre escolha e consulta de horário, sem transferir canal |
+| Loja com catálogo atual por categoria/tamanho e contato funcional | Excluída por ausência de lacuna demonstrada; nota 50/100 não a reinclui |
+| Oficina com botão de orçamento direcionando a outra empresa, reproduzido em desktop/celular | Fila separada de melhoria, 90/100; correção do destino, sem reconstrução injustificada |
+| Clínica cujo link não abre na ferramenta | Pendente, 40/100; falha de acesso não foi tratada como site inadequado |
+| Google local indisponível, concorrentes em outro buscador | Ordem no Google explicitamente não verificada; nenhum ranking ou concorrente inventado |
 
-A pesquisa real não liberou mensagens de abordagem. Os casos permaneceram pendentes ou excluídos conforme as fontes. Não houve contato com empresas, envio de formulários, reservas, compras ou publicação de mensagens comerciais.
+As três aberturas aplicáveis usam fatos do dossiê e terminam com pergunta de descoberta. Nenhuma apresenta site, preço, proposta ou demonstração. Os casos pendente/excluído não receberam abertura para envio. Sem resposta dos empresários, os passos 4 a 7 ficaram bloqueados.
 
-## Verificações estruturais
+A nova rubrica preserva 0 a 100. Demanda soma quatro sinais de 5 pontos: nota/volume do Google, frequência recente de avaliações, Instagram ativo com datas e procura/uso documentados. Os outros quatro critérios mantêm identidade, necessidade, adequação e confiança. Os limiares são parâmetros operacionais ajustáveis, não garantias de vendas.
 
-O validador `quick_validate.py` da skill-creator foi executado na pasta pessoal editada. Foram conferidos nome, frontmatter, referências locais, metadados de interface, ícones e preservação da política de invocação.
+## Transições comerciais e autorização
 
-As cópias existentes para Codex e Claude Code foram mantidas idênticas, incluindo referências e metadados. Para verificar a distribuição:
+| Cenário | Resultado observado |
+| --- | --- |
+| Restaurante pede para ver uma ideia, prévia ainda não apresentada | Prévia criada; texto a identifica como não oficial. Convite aguarda apresentação confirmada |
+| Oficina gostou e vai falar com sócio | Convite de cinco minutos e roteiro que começa ouvindo; interesse não equivale a aceite |
+| Valor/escopo definidos, pagamento não informado | Minuta interna incompleta; não prometeu pagar depois de publicar nem inventou condições |
+| Pagamento integral autorizado após aprovação e publicação, Pix e dois dias úteis | Condição aparece somente nesse cenário, dependente dos dois eventos; custos e lacunas explícitos |
+| D0 em 24/11/2026, America/Fortaleza | Rascunhos D+2 em 26/11, D+5 em 29/11, D+10 em 04/12, sem automação |
+| Recusa e pedido de não contato em D+1 | Convite, proposta e todos os acompanhamentos cancelados imediatamente |
+| Abertura sem resposta após dez dias | Sem demonstração nem sequência D+2/D+5/D+10; silêncio não interpretado como interesse |
+
+A proposta foi conferida para valor, escopo, aprovação, limite de alterações, prazo, hospedagem/manutenção e pagamento. Dados ausentes permaneceram como lacunas. Nenhum cenário prometeu faturamento, usou pressão ou inventou acordo. As seis objeções anteriores continuam disponíveis nas etapas apropriadas, sem antecipar oferta na abertura.
+
+## Prévia e limites de verificação
+
+O HTML apresenta nome e verde #073F2D fornecidos, marmita de frango e marmita de carne. Sem logo, fotos, preços, endereço ou condições de entrega inventados. Identificação visível de demonstração não oficial; WhatsApp apenas visual, sem destinatário, formulário, pagamento, coleta ou recursos externos.
+
+Inspeção do HTML e execução do script real em simulação mínima de DOM passaram: seleção de cada produto, mensagem correspondente e seleção exclusiva. Esse teste não equivale a navegador.
+
+A tentativa de abrir Chromium via Playwright falhou por bloqueio de criação de socket no ambiente. Layout real em celular/desktop, renderização, teclado em navegador, leitor de tela, console e capturas não foram aprovados nem receberam nota presumida. A validação visual permanece limitada; isso não foi usado para afirmar falha da prévia.
+
+## Regressão e distribuição
+
+O validador quick_validate.py da skill-creator foi executado na pasta pessoal editada. Foram conferidos links das referências, limites dos metadados, ícones e política de invocação preservada. As duas pastas existentes de distribuição, Codex e Claude Code, contêm a mesma skill completa, com as quatro referências.
+
+Comandos reproduzíveis na raiz do repositório:
 
 ```bash
 python3 tests/validate_package.py
+node tests/validate_demo.js
 ```
 
-Esse teste compara todos os arquivos das duas pastas e verifica links locais em Markdown. Também foi executado contra uma cópia divergente e um link local ausente: rejeitou ambos; os arquivos foram restaurados e a execução final passou. Não avalia sozinho a naturalidade das mensagens. Fontes públicas podem mudar; os achados reais precisam de nova verificação antes de uma prospecção futura.
+A verificação de distribuição passou e foi exercitada contra cópia divergente e link local ausente, rejeitando ambos; os arquivos foram restaurados e a execução final passou. A naturalidade e a fidelidade factual das mensagens foram revisadas editorialmente, não inferidas de uma busca de palavras.
+
+## Histórico preservado
+
+[Casos controlados anteriores](controlled-results.md) e [pesquisa real anterior](live-results.md) permanecem como registros históricos identificados. Suas notas usam a rubrica antiga e suas mensagens não são exemplos de primeira abordagem da metodologia atual. A pesquisa real anterior manteve quatro pendentes e uma exclusão; não é uma lista atual de prospectos aptos.
+
+Os testes atuais são documentais. Fontes, contatos, situação do site e estado real da conversa devem ser verificados novamente em uma prospecção real.

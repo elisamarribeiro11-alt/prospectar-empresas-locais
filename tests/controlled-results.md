@@ -1,3 +1,5 @@
+> Registro histórico da atualização anterior. As pontuações usam a rubrica antiga e as mensagens não são exemplos de abertura da metodologia atual. Para o fluxo vigente, consultar VALIDATION.md e as referências atuais.
+
 # Diagnósticos comerciais: simulação controlada
 
 **Município:** Itaitinga - CE. **Data da análise:** 24/11/2026. **Cobertura:** cinco negócios fictícios dos dossiês D1 a D5, sem pesquisa externa, visita a páginas ou contato com empresas. Bairros não foram informados nos dossiês.
